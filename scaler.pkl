@@ -1,0 +1,7 @@
+import pickle
+
+# model save
+pickle.dump(model, open("model.pkl", "wb"))
+
+# scaler save
+pickle.dump(scaler, open("scaler.pkl", "wb"))
